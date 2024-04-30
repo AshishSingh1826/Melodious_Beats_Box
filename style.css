@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+body{
+    background-color: #021821;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Jersey 15", sans-serif;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 55px;
+    background-color:black;
+    color: whitesmoke;
+}
+
+nav ul li{
+    padding: 10px 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.brand img{
+    width: 54px;
+    padding: 0 10px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: #fae1e3;
+    color: rgb(206, 237, 242);
+    font-family: "Lora", serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 34px;
+    background-image: url('./materials/musicPlayer.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    background-color: black;
+    color: rgb(206, 237, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+    /* color: whitesmoke; */
+    /* font-size: 1.2rem; */
+    /* font-weight: bolder; */
+}
+.icons{
+    margin: 20px 0;
+}
+.icons i{
+    cursor: pointer;
+    color: rgb(206, 237, 242);
+}
+.fa-solid{
+    padding: 0 20px;
+    color: whitesmoke;
+}
+
+#myProgressBar{
+    width: 97vw;
+}
+
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #021427;
+    margin: 12px 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 34px;
+    /* opacity: 0.85; */
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 23px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.songListPlay i{
+    color: #cce2e6;
+    font-size: 1.2rem;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+
+
